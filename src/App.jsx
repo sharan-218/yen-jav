@@ -1,13 +1,12 @@
-import "./App.css";
-
+import Home from "../src/pages/home/Home";
+import About from "../src/pages/about/About";
+import Navbar from "./components/nav/Navbar";
 function App() {
   return (
     <>
-      <h1>YanJav</h1>
-      <p>Flavor Meets Convenience: Your Daily Cuisine & Grocery Essentials!</p>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+      <Home />
+      <About />
     </>
   );
 }

@@ -3,23 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
-body {
-  line-height: 1.5;
-  font-size: 100%;
-  font-family: "Noto Serif Display", serif;
-}
 :root {
   --color-primary: #6d28d9;
   --color-secondary: #f5f5f5;
   --color-accent: #f59e0b;
-  --color-text: #333333;
-  --color-background: #ffffff;
-  --color-border: #d1d5db;
+  --color-text: #2b2b2b;
+  --color-background: #fffffa;
+  --color-border: #fffef6;
 }
-
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+body {
+  width: 100vw;
+  line-height: 1.5;
+  font-size: 100%;
+  background: var(--color-background);
+  font-family: Montserrat, "Serif";
+  overflow-x: hidden;
+  color: var(--color-text);
+}
 img {
   max-width: 100%;
   height: auto;

@@ -1,0 +1,47 @@
+.describe-card {
+  width: clamp(350px, 380px, 400px);
+  height: clamp(400px, 420px, 20%);
+  background: var(--color-secondary);
+  padding: 0.75rem 1.25rem;
+  place-items: center;
+  border-radius: 20px;
+  transition: box-shadow 250ms ease-in-out, filter 250ms ease-in-out;
+}
+.description {
+  margin: 0.5rem 0 1rem 0;
+}
+.image-wrapper {
+  width: 100%;
+  height: clamp(200px, 350px, 380px);
+  overflow: hidden;
+  border-radius: inherit;
+}
+.cardTitle {
+  color: var(--color-accent);
+  font-family: "Bebas Neue", sans-serif;
+  width: max-content;
+  position: relative;
+}
+.cardTitle::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 2px;
+  background: var(--color-primary);
+  left: 0;
+  border-radius: 3px;
+}
+.card-image {
+  filter: brightness(80%);
+  transition: scale 250ms ease-in-out, filter 250ms ease-in-out;
+  object-fit: center;
+  object-fit: cover;
+}
+.describe-card:hover {
+  box-shadow: 0px 8px 25px 3px #a16d1456;
+}
+.describe-card:hover .card-image {
+  scale: 1.25;
+  filter: brightness(100%);
+}
