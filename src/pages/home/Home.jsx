@@ -10,7 +10,7 @@ const Home = () => {
         </p>
         <a href="#about" id="more">
           Know more
-          <span class="material-symbols-outlined">north_east</span>
+          <span className="material-symbols-outlined">north_east</span>
         </a>
       </section>
     </div>
