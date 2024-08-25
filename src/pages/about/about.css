@@ -10,28 +10,37 @@
   text-align: center;
   color: var(--color-primary);
   padding: 0.5rem 1rem;
-  margin: 2rem auto;
+  margin: 1rem auto 0.25rem auto;
   font-size: clamp(26px, 1.5rem, 2.35rem);
   font-family: "Bebas Neue", sans-serif;
   position: relative;
 }
-.about-header::after {
-  content: "";
-  width: 40%;
-  position: absolute;
-  bottom: 100;
-  background: var(--color-text);
-  padding: 2px;
-  left: 50%;
-  border-radius: 3px;
-  transform: translate(-50%, 50%);
-}
 .describe-card-wrapper {
+  width: 90%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
   flex-wrap: wrap;
-  padding: 1rem;
-  flex-grow: 1;
+  padding: 0.25rem;
+  overflow: visible;
+}
+#about-subtitle {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  color: var(--color-primary);
+}
+.description-container {
+  width: 90vw;
+  margin: 1rem auto;
+}
+.about-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  line-height: 1.75;
+}
+.f-para {
+  font-style: italic;
 }
