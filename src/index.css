@@ -25,7 +25,11 @@ body {
   font-family: Montserrat, "Serif";
   overflow-x: hidden;
   color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
+
 img {
   max-width: 100%;
   height: auto;
