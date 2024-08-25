@@ -1,0 +1,26 @@
+.loc-card {
+  width: fit-content;
+  padding: 0.75rem 1.5rem;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 15px 15px 0 0;
+  background: var(--color-secondary);
+  box-shadow: 0px 0px 25px 3px rgba(182, 182, 182, 0.277);
+  position: static;
+  bottom: 0;
+}
+.loc-card .loc-icon {
+  /* border: 2px solid blue; */
+  border-radius: 50%;
+  width: clamp(20px, 40px, 45px);
+  overflow: hidden;
+}
+.loc-icon img {
+  background-color: var(--color-accent);
+  padding: 0.25rem;
+  filter: hue-rotate(220deg);
+}
