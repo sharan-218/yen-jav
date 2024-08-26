@@ -2,6 +2,9 @@ import React from "react";
 import img1 from "../../assets/about-img1.jpg";
 import img2 from "../../assets/about-img2.jpg";
 import img3 from "../../assets/about-img3.jpg";
+import drink1 from "../../assets/drinks1.jpg";
+import drink2 from "../../assets/drinks2.jpg";
+import drink3 from "../../assets/drinks3.jpg";
 import "./about.css";
 import DescribeCard from "../../components/describeCard/DescribeCard";
 const About = () => {
@@ -41,12 +44,12 @@ const About = () => {
         </div>
       </div>
       <div className="about-header">
-        <h2 id="about-title">What is in the box?</h2>
+        <h2 className="about-title">What is in the box?</h2>
       </div>
       <div className="about-body">
         <div className="describe-card-wrapper">
           <DescribeCard
-            description="Start your day with our freshly prepared, delicious meals, delivered right to your door. Enjoy the perfect blend of taste and nutrition every morning."
+            description="Start your day with our freshly prepared, delicious meals, delivered right to your door. Enjoy the perfect blend of taste and nutrition."
             image={img1}
             cardTitle="Savor the Morning"
           />
@@ -61,6 +64,29 @@ const About = () => {
             cardTitle="Essentials Delivered"
           />
         </div>
+
+        <section className="drinks-section">
+          <div className="about-header">
+            <h2 className="about-title">Drinks and Beverages</h2>
+          </div>
+          <div className="drinks-card-wrapper">
+            <DescribeCard
+              image={drink1}
+              cardTitle="Classic Chai Bliss"
+              description="Enjoy our Classic Chai, made with a special mix of spices and tea. It's a warm, comforting drink that's perfect for any time of day."
+            />
+            <DescribeCard
+              image={drink3}
+              cardTitle="test"
+              description="Discover our selection of Hot Indian Drinks, featuring a variety of traditional beverages like Masala Tea and Thandai."
+            />
+            <DescribeCard
+              image={drink2}
+              cardTitle="test"
+              description="Enjoy our range of drinks, including tea, coffee, and traditional Indian hot beverages. Each drink is made to be delicious and satisfying."
+            />
+          </div>
+        </section>
       </div>
     </section>
   );

@@ -18,7 +18,7 @@ html {
   width: 0;
 }
 body {
-  width: 100vw;
+  width: clamp(350px, 100vw, 1800px);
   line-height: 1.5;
   font-size: 100%;
   background: var(--color-background);
