@@ -1,7 +1,6 @@
 .loc-card {
   width: fit-content;
   padding: 0.75rem 1.5rem;
-  /* border: 1px solid red; */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -23,4 +22,8 @@
 .loc-icon img {
   background-color: var(--color-accent);
   padding: 0.25rem;
+}
+#loc-text {
+  max-width: fit-content;
+  font-size: 0.751rem;
 }

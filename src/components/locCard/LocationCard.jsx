@@ -7,9 +7,9 @@ const LocationCard = () => {
       <div className="loc-icon">
         <img src={locIcon} alt="Location icon" />
       </div>
-      <p id="loc-text">
+      <span id="loc-text">
         <strong>Ambedkar Nagar,Secunderabad,Telangana</strong>
-      </p>
+      </span>
     </div>
   );
 };
