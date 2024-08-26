@@ -77,12 +77,12 @@ const About = () => {
             />
             <DescribeCard
               image={drink3}
-              cardTitle="test"
+              cardTitle="Artisan Coffee Creations"
               description="Discover our selection of Hot Indian Drinks, featuring a variety of traditional beverages like Masala Tea and Thandai."
             />
             <DescribeCard
               image={drink2}
-              cardTitle="test"
+              cardTitle="Hot Indian Elixirs"
               description="Enjoy our range of drinks, including tea, coffee, and traditional Indian hot beverages. Each drink is made to be delicious and satisfying."
             />
           </div>

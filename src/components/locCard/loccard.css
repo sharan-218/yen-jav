@@ -1,5 +1,5 @@
 .loc-card {
-  width: max-content;
+  width: fit-content;
   padding: 0.75rem 1.5rem;
   /* border: 1px solid red; */
   margin: 0 auto;

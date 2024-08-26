@@ -18,8 +18,9 @@ html {
   width: 0;
 }
 body {
-  width: clamp(350px, 100vw, 1800px);
+  /* width: clamp(350px, 100vw, 1800px); */
   line-height: 1.5;
+  overflow-x: hidden;
   font-size: 100%;
   background: var(--color-background);
   font-family: Montserrat, "Serif";
