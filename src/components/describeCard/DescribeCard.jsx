@@ -11,7 +11,7 @@ const DescribeCard = ({ description, image, cardTitle, cardClass }) => {
       {/* Photo by Olena Bohovyk: https://www.pexels.com/photo/sliced-orange-fruit-in-clear-drinking-glass-3323682/ */}
       {/* Photo by Charlotte May: https://www.pexels.com/photo/masala-tea-with-spices-on-table-5946612/ */}
       <div className="image-wrapper">
-        <img src={image} className="card-image" />
+        <img src={image} className="card-image" loading="lazy" />
       </div>
     </div>
   );

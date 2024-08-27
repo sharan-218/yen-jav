@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../../assets/about-img1.jpg";
-import img2 from "../../assets/about-img2.jpg";
-import img3 from "../../assets/about-img3.jpg";
-import drink1 from "../../assets/drinks1.jpg";
-import drink2 from "../../assets/drinks2.jpg";
-import drink3 from "../../assets/drinks3.jpg";
+import img1 from "../../assets/about-img1.webp";
+import img2 from "../../assets/about-img2.webp";
+import img3 from "../../assets/about-img3.webp";
+import drink1 from "../../assets/drinks1.webp";
+import drink2 from "../../assets/drinks2.webp";
+import drink3 from "../../assets/drinks3.webp";
 import "./about.css";
 import DescribeCard from "../../components/describeCard/DescribeCard";
 const About = () => {
