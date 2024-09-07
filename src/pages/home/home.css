@@ -1,5 +1,6 @@
 .main-home {
-  width: clamp(350px, 100%, 100vw);
+  width: clamp(350px, 100vw, 1800px);
+  margin: 0 auto;
   position: relative;
   min-height: 70vh;
   overflow: hidden;
@@ -37,7 +38,7 @@
 
 #sub-title {
   font-family: Montserrat;
-  font-size: clamp(1.2rem, 2.3vw, 1.75rem);
+  font-size: clamp(1.2rem, 2vw, 1.75rem);
   color: var(--color-secondary);
   width: 100%;
   box-sizing: border-box;

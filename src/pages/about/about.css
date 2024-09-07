@@ -1,7 +1,7 @@
 #about {
   width: clamp(350px, 100%, 100vw);
   min-height: 100vh;
-  margin: 2rem 0 0 0;
+  margin: 2rem auto 0 auto;
   padding: 1.25rem 1.5rem;
   box-sizing: border-box;
 }
@@ -15,8 +15,9 @@
   font-family: "Bebas Neue", sans-serif;
   position: relative;
 }
-.describe-card-wrapper {
-  width: 90%;
+.describe-card-wrapper,
+.drinks-card-wrapper {
+  width: clamp(320px, 90vw, 1080px);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -46,15 +47,7 @@
 .f-para {
   font-style: italic;
 }
-.drinks-card-wrapper {
-  width: 90%;
-  margin: 1rem auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
+
 /* .drinks-card {
   width: 33.33%;
   flex: 1;
